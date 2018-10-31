@@ -1,0 +1,17 @@
+                    Tutorial para instação
+                    
+1 para altere em conky.conf o sua porta de ethernet  que  está em #Networking
+  
+2 crie um script  ip.sh  com o seguinte código:
+         wget http://ipinfo.io/ip -qO -
+        
+3 coloque o script ip.sh no diretório /bin através no comando :
+		 sudo mv ip.sh /bin/
+ 
+4   dê as permições  ao script ip.sh com o seguinte comando :
+		 sudo chmod +x ip.sh 
+
+5 execute o comando:
+         sudo ./install-conky.shinstall-conky.sh 
+
+6 desmarque o conky da inicação automática do sistema.
